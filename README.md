@@ -4,7 +4,7 @@
 
 # Demo
 
-View: blodex.github.io
+View: blodef.github.io
 
 # Kurulum 🇹🇷
 
