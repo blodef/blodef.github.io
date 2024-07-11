@@ -1,6 +1,6 @@
 ## Developed By Blode
 
-(https://discord.com/users/1102137974981922829)
+[Discord](https://discord.com/users/1102137974981922829)
 
 # Demo
 
