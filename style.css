@@ -1,127 +1,200 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-
-* {
-	box-sizing: border-box;
+.header {
+    padding: 10px;
+    background-color: aquamarine;
+    width: 1200px;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-body {
-	background: url("https://i.ytimg.com/vi/odtp0AUi5ro/maxresdefault.jpg");
-	background-size: cover;
-	object-fit: fill;
-	font-family: Montserrat, sans-serif;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	min-height: 100vh;
-	margin: 0;
-}
-
-h3 {
-	margin: 10px 0;
-	font-size: 1.5rem;
-	font-weight: bolder;
-}
-
-h6 {
-	font-size: .7rem;
-	font-weight: bolder;
-	margin: 5px 0;
-	text-transform: uppercase;
-}
-
-p {
-	font-size: 16px;
-	line-height: 21px;
-}
-
-.card-container {
-	background-color: rgba(255, 255, 255, 0.801);
-	border-radius: 5px;
-	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
-	color: #000000;
-	font-weight: bolder;
-	padding-top: 30px;
-	position: relative;
-	width: 350px;
-	max-width: 100%;
-	text-align: center;
-}
-
-.card-container .round {
-	border: 2px solid #000000;
-	border-radius: 50%;
-	padding: 7px;
-}
-
-button.primary {
-	background-color: #000000;
-	border: 2px solid #000000;
-	border-radius: 3px;
-	color: #ffffff;
-	font-family: Montserrat, sans-serif;
-	font-weight: bolder;
-	padding: 10px 25px;
-	cursor: pointer;
-	transition: .4s ease-in-out;
-}
-
-button.primary:hover {
-	transform: translateY(-5px);
-	box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.555);
-}
-
-button.primary.ghost {
-	background-color: transparent;
-	color: #000000;
-	font-weight: bolder;
-}
-
-.skills {
-	background-color: rgba(255, 255, 255, 0.644);
-	text-align: left;
-	padding: 15px;
-	margin-top: 30px;
-}
-
-.skills ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-
-.skills ul li {
-	border: 2px solid #000000;
-	border-radius: 2px;
-	display: inline-block;
-	font-size: 12px;
-	font-weight: bolder;
-	border-radius: 5px;
-	margin: 0 7px 7px 0;
-	padding: 7px;
-}
-
-footer {
-    background-color: #000000;
-    color: #fff;
-    font-size: 14px;
-    bottom: 0;
-    position: fixed;
-    left: 0;
-    right: 0;
+.header h2 {
     text-align: center;
-    z-index: 999;
+    color: brown;
+    font-size: 40px;
 }
 
-footer p {
-    margin: 10px 0;
+/*
+.menu {
+    padding: 20px;
+    width: 1180px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    background-color: chartreuse;
 }
 
-footer i {
+.menu ul {
+    list-style-type: none;
+    margin: 0px;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    padding: 15px;
+}
+*/
+
+.menu ul {
+    background-color: chartreuse;
+    padding: 15px;
+    width: 1190px;
+    margin-top : 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.menu ul li {
+    list-style-type: none;
+    display: inline;
+    padding-right: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.menu a:hover {
+    color: rgba(4, 54, 70, 0.849);
+    transition: 1s ease-in-out;
+}
+
+.bar {
+    background-color: rgb(15, 177, 0);
+    padding: 20px;
+    color: white;
+    float: left;
+    width: 200px;
+    margin-left: 55px;
+}
+
+.bar h3 {
+    color: rgb(114, 0, 23);
+    text-align: center;
+}
+
+.bar li {
+    list-style-type: none;
+    padding: 10px;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.bar a {
+    color: white;
+    text-decoration: none;
+}
+
+.bar a:hover {
     color: red;
 }
 
-footer a {
-    color: #3c97bf;
+.bar span {
+    color: cyan;
+    font-size: 20px;
+}
+
+.marginleft {
+    margin-left: -17px;
+}
+
+.bar button {
+    background-color: darkgreen;
+    border: 0px;
+    color: rgb(17, 207, 221);
+    padding: 10px;
+}
+
+.bar button:hover {
+    background-color: darkcyan;
+    transition: background 1s ease-in-out;
+    transition: 1s ease-in-out;
+    color: rgb(252, 7, 7);
+}
+
+.bar input {
+    border: 1px solid aquamarine;
+    padding: 10px;
+}
+
+.bar input:hover {
+    border: gold;
+}
+
+.body {
+    background-color: darkred;
+    padding: 10px;
+    color: white;
+    width: 900px;
+    float: right;
+    margin-right: 55px;
+    margin-top: -0.5px;
+}
+
+.body header {
+    color: rgb(33, 175, 156);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    border-bottom: 1px solid #000;
+}
+
+.body .content {
+    font-size: 16.3px;
+    height: 99px;
+}
+
+.body .content a {
+    color: darkgoldenrod;
     text-decoration: none;
+}
+
+.body .content a:hover {
+    transition: 1s ease-in-out;
+    color: rgb(0, 255, 85);
+}
+
+.body footer {
+    border-top: 1px solid #000;
+    padding: 5px;
+    margin-bottom: -7px;
+    border-bottom: 3px solid #000;
+}
+
+.footer {
+    background-color: darkolivegreen;
+    padding: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 40px;
+    width: 1200px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 550px;
+    margin-bottom:30px;
+}
+
+.footer p {
+    margin-top: 8px;
+    font-size: 20px;
+    color: darkblue;
+}
+
+.footer p a {
+    text-decoration: none;
+    color: cyan;
+}
+
+.footer p a:hover {
+    transition: 1s ease-in-out;
+    color: darkgoldenrod;
 }
